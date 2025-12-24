@@ -214,7 +214,7 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "title" },
-	            "RO BINGO"
+	            "AI-isms Bingo"
 	          )
 	        ),
 	        _react2.default.createElement(
