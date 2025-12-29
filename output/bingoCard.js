@@ -22172,7 +22172,7 @@
 	  "echoes",
 	  "whispers",
 	  "hushes",
-	  "testament,"
+	  "testament",
 	  "resonance",
 	  "barely audible",
 	  "softly",
