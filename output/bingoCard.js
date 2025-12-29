@@ -96,14 +96,16 @@
 	    return setSquares;
 	  },
 	  shuffle: function shuffle(arr) {
-	    for (var idx = arr.length; idx; idx--) {
-	      var rand = Math.floor(Math.random() * idx);
-	      var _ref = [arr[rand], arr[idx - 1]];
-	      arr[idx - 1] = _ref[0];
-	      arr[rand] = _ref[1];
-	    }
-	    localStorage.setItem('setSquares', JSON.stringify(arr));
-	    return arr;
+			var m = arr.length, t, i;
+			while (m) {
+				i = Math.floor(Math.random() * m--);
+				t = arr[m];
+				arr[m] = arr[i];
+				arr[i] = t;
+			}
+			const newArr = arr.slice(24);
+			localStorage.setItem('setSquares', JSON.stringify(arr));
+			return newArr;
 	  },
 	  shuffleAgain: function shuffleAgain(options) {
 	    var arr = this.shuffleCheck(options);
