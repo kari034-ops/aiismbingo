@@ -113,7 +113,8 @@
 
 .sliding-background {
   background: url("../aibg.jpg") repeat-x;
-  height: 2000px;
+  background-size: contain;
+  height: 100%;
   width: 3200px;
   z-index: -1;
   position: fixed;
@@ -128,4 +129,5 @@
     transform: translate3d(-1692px, 0, 0);
   }
 }
+
 
