@@ -13,7 +13,7 @@
 
 .bingocard-square {
   font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   width: 100px;
   height: 100px;
   background: lavenderblush;
@@ -38,7 +38,7 @@
 .bingocard-selected {
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   width: 100px;
   height: 100px;
   background: darkslateblue;
@@ -91,7 +91,7 @@
   grid-area: a;
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   color: aliceblue;
   width: 80px;
   height: 42px;
@@ -112,9 +112,9 @@
 }
 
 .sliding-background {
-  background: url("../rainbow.jpg") repeat-x;
+  background: url("../aibg.jpg") repeat-x;
   height: 100%;
-  width: 5076px;
+  width: 3200px;
   z-index: -1;
   position: fixed;
   animation: slide 60s linear infinite;
@@ -128,5 +128,3 @@
     transform: translate3d(-1692px, 0, 0);
   }
 }
-
-
