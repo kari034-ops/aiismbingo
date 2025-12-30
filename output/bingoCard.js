@@ -22174,7 +22174,7 @@
 	  "barely audible",
 	  "softly",
 	  "sentient rooms",
-	  "DETERMINED",
+	  "deter-mination",
 	  "flickering",
 	  "hitched breaths",
 	  "A beat.",
@@ -22208,6 +22208,7 @@
 	];
 
 	module.exports = BingoDefault;
+
 
 
 /***/ })
