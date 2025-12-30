@@ -103,7 +103,7 @@
 				arr[m] = arr[i];
 				arr[i] = t;
 			}
-			var newArr = arr.slice(23);
+			var newArr = arr.slice(25);
 			localStorage.setItem('setSquares', JSON.stringify(arr));
 			return newArr;
 	  },
@@ -22216,3 +22216,4 @@
 
 /***/ })
 /******/ ]);
+
