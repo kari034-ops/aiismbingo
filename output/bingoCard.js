@@ -22196,11 +22196,11 @@
 	  "it holds",
 	  "ellipses at second to last... word",
 	  "Elara, Kael, Lyra, Voss & friends",
-	  "mechanical / measured / surgical / clinical precision",
+	  "mechanical / measured / surgical / clinical",
 	  "continuity errors",
 	  "overly long book title",
 	  "piss yellow cover",
-	  "characters staring blankly",
+	  "characters staring blankly on cover",
 	  "AI book about AI",
 	  "excess dialogue tags",
 	  "intro starts with light/weather",
@@ -22213,3 +22213,4 @@
 
 /***/ })
 /******/ ]);
+
