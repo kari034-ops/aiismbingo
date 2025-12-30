@@ -90,10 +90,7 @@
 	  },
 	  shuffleCheck: function shuffleCheck(options) {
 	    var setSquares = JSON.parse(localStorage.getItem('setSquares'));
-	    if (setSquares == null) {
-	      setSquares = this.shuffle(options);
-	    }
-	    return setSquares;
+	    return  setSquares = this.shuffle(options);
 	  },
 	  shuffle: function shuffle(arr) {
 			var m = arr.length, t, i;
