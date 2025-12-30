@@ -100,7 +100,7 @@
 				arr[m] = arr[i];
 				arr[i] = t;
 			}
-			var newArr = arr.slice(24);
+			var newArr = arr.slice(23);
 			localStorage.setItem('setSquares', JSON.stringify(newArr));
 			return newArr;
 	  },
@@ -117,7 +117,7 @@
 	  },
 	  setMultipleFalse: function setMultipleFalse(val) {
 	    var array = [];
-	    for (var times = 0; times < 23; times++) {
+	    for (var times = 0; times < 24; times++) {
 	      array.push(val);
 	    }
 	    localStorage.setItem('checkedVals', JSON.stringify(array));
@@ -22174,7 +22174,7 @@
 	  "barely audible",
 	  "softly",
 	  "sentient rooms",
-	  "determination",
+	  "DETERMINED",
 	  "flickering",
 	  "hitched breaths",
 	  "A beat.",
