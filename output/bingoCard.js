@@ -98,12 +98,12 @@
 	  shuffle: function shuffle(arr) {
 			var m = arr.length, t, i;
 			while (m) {
-				i = Math.floor(Math.random() * m--);
-				t = arr[m];
+				var i = Math.floor(Math.random() * m--);
+				var t = arr[m];
 				arr[m] = arr[i];
 				arr[i] = t;
 			}
-			const newArr = arr.slice(24);
+			var newArr = arr.slice(24);
 			localStorage.setItem('setSquares', JSON.stringify(arr));
 			return newArr;
 	  },
@@ -120,7 +120,7 @@
 	  },
 	  setMultipleFalse: function setMultipleFalse(val) {
 	    var array = [];
-	    for (var times = 0; times < 25; times++) {
+	    for (var times = 0; times < 24; times++) {
 	      array.push(val);
 	    }
 	    localStorage.setItem('checkedVals', JSON.stringify(array));
