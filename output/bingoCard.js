@@ -117,7 +117,7 @@
 	  },
 	  setMultipleFalse: function setMultipleFalse(val) {
 	    var array = [];
-	    for (var times = 0; times < 24; times++) {
+	    for (var times = 0; times < 23; times++) {
 	      array.push(val);
 	    }
 	    localStorage.setItem('checkedVals', JSON.stringify(array));
