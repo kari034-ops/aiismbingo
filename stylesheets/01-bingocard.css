@@ -2,6 +2,7 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  min-height:100vh;
 }
 
 .bingocard {
@@ -129,5 +130,6 @@
     transform: translate3d(-1692px, 0, 0);
   }
 }
+
 
 
