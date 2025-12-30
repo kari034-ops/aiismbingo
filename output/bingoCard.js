@@ -103,8 +103,8 @@
 				arr[m] = arr[i];
 				arr[i] = t;
 			}
-			var newArr = arr.slice(25);
-			localStorage.setItem('setSquares', JSON.stringify(arr));
+			var newArr = arr.slice(24);
+			localStorage.setItem('setSquares', JSON.stringify(newArr));
 			return newArr;
 	  },
 	  shuffleAgain: function shuffleAgain(options) {
@@ -22213,7 +22213,5 @@
 	module.exports = BingoDefault;
 
 
-
 /***/ })
 /******/ ]);
-
