@@ -110,13 +110,13 @@
 	  shuffleAgain: function shuffleAgain(options) {
 	    var arr = this.shuffleCheck(options);
 
-	    this.shuffle(arr);
+	    var newArr = this.shuffle(arr);
 	    var vals = this.setMultipleFalse(false);
 	    this.setState({
-	      bingoOptions: arr, bingoValues: vals, squareCount: 0
+	      bingoOptions: newArr, bingoValues: vals, squareCount: 0
 	    });
 	    localStorage.setItem('squareCount', 0);
-	    return arr;
+	    return newArr;
 	  },
 	  setMultipleFalse: function setMultipleFalse(val) {
 	    var array = [];
