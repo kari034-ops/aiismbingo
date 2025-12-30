@@ -103,7 +103,7 @@
 				arr[m] = arr[i];
 				arr[i] = t;
 			}
-			var newArr = arr.slice(24);
+			var newArr = arr.slice(23);
 			localStorage.setItem('setSquares', JSON.stringify(arr));
 			return newArr;
 	  },
@@ -22211,6 +22211,7 @@
 	];
 
 	module.exports = BingoDefault;
+
 
 
 /***/ })
