@@ -13,7 +13,7 @@
 
 .bingocard-square {
   font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   width: 100px;
   height: 100px;
   background: lavenderblush;
@@ -38,7 +38,7 @@
 .bingocard-selected {
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   width: 100px;
   height: 100px;
   background: darkslateblue;
@@ -91,7 +91,7 @@
   grid-area: a;
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   color: aliceblue;
   width: 80px;
   height: 42px;
@@ -128,4 +128,5 @@
     transform: translate3d(-1692px, 0, 0);
   }
 }
+
 
